@@ -1,0 +1,22 @@
+
+module FlightBook{
+	struct Plane{
+		long id;
+		string from;
+		string to;
+		long noOfPassangers;
+
+
+	}
+
+	struct Customer{
+		string name;
+		string email;
+		string ticketNo;
+
+	}
+	struct ticket{
+		long id;
+		long price;
+	}
+} 
